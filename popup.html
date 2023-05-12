@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div id="main-view">
+    <input type="text" id="search" placeholder="Search prompts" />
+    <button id="add">Add prompt</button>
+    <button id="export">Export to CSV</button>
+    <div id="prompt-list">
+      <!-- List of prompts will be dynamically populated here -->
+    </div>
+  </div>
+  <div id="add-prompt-view" class="hidden">
+    <input type="text" id="title" placeholder="Title" />
+    <textarea class="height-large" id="prompt" placeholder="Prompt"></textarea>
+    <button id="save">Save</button>
+    <button id="cancel">Close</button>
+  </div>
+  <div id="prompt-details-view" class="hidden">
+    <h2 id="details-title"></h2>
+    <p id="details-prompt"></p>
+    <button id="details-copy">Copy</button>
+    <button class="delete" id="details-delete">Delete</button>
+    <button id="details-close">Close</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
