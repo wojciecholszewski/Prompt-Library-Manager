@@ -1,4 +1,4 @@
-# Prompt-Library-Manager
+# Prompt Library Manager
 The Prompt Library Manager is a "powerful" and user-friendly extension for Google Chrome that simplifies the management of text prompts. Whether you're a writer, blogger, or anyone who frequently uses templates and standard responses, this extension provides a convenient solution to store, organize, and access your favorite AI prompts with ease.
 
 With the ability to customize the interface and categorize prompts according to your preferences, the Prompt Library Manager offers a personalized experience. Gone are the days of searching through scattered files or old emails to find the right response. Now, you can have all your go-to prompts readily available at your fingertips.
